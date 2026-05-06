@@ -1,0 +1,33 @@
+Guia React essencial
+componentes essencias
+
+funcitional component
+função Javascript simples que retornam html(jsx).é o padrão moderno
+
+Class component
+Forma antiga de criar componentes (usando classes).sistemas
+
+props
+São "prioridades". é como passamos informação de um componente pai para um filho-> EX:passar nome de usuario.
+
+hook:Funções especias que permitem "ganhar super-poderes" nos componentes.
+
+UseState
+O Hook mais importante ele cria uma variavel que, quando muda,faz o React atualizar a tela automaticamente
+
+eventos (Handle)
+funções que "lidam" (handle)  com ações do usuario:handleClick Função que diz o que acontece quando alguém clica no botao:
+
+Criando um novo projeto
+1->npm create vite@latest ou npm create vite@5.5.2
+2-> selecione REACT
+3-> selecione JAVASCRIPT
+4-> npm install 
+5-> npm run dev
+
+Vs code
+-> instalar extenção
+.ES7+ react/redux/react-native
+snippets
+->crie um arquivo (come/case pattern) JSX
+-> atalho ->ratce
